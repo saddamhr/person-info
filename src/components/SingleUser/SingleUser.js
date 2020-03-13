@@ -9,8 +9,8 @@ const SingleUser = (props) => {
     return (
         <div className='single-user'>
             <div>
-                <img className='profile-img' src={require('../../images/user.jpg')} />
-                {/* <img className='profile-img' src={require(img)} /> */}
+                {/* <img className='profile-img' src={require('../../images/user.jpg')} /> */}
+                <img className='profile-img' src={img} />
             </div>
             <div className='user-info'>
                 <h1 className='user-name'>{name}</h1>

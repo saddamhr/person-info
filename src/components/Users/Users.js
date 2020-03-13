@@ -5,21 +5,21 @@ import SingleUser from '../SingleUser/SingleUser';
 
 const Users = () => {
     const users = [
-        {name:'Farhan Fardid', email:'farhanfardid62@gmail.com', phone:'01XXXXXXXXX', income: 40000, img:'../../images/user.jpg'},
-        {name:'Md. Shahanul Haque', email:'shawon63@gmail.com', phone:'01XXXXXXXXX', income: 40000, img:''},
-        {name:'Saddam Hossain', email:'saddambubt65@gmail.com', phone:'01XXXXXXXXX', income: 40000, img:''},
-        {name:'Zahid Ahmed', email:'zahidbubt67@gmail.com', phone:'01XXXXXXXXX', income: 40000, img:''},
-        {name:'Sudipto Kumar Mitra', email:'zahidbubt67@gmail.com', phone:'01XXXXXXXXX', income: 40000, img:''},
-        {name:'Md. Motiur Rahman', email:'motiur47@gmail.com', phone:'01XXXXXXXXX', income: 40000, img:''},
-        {name:'Md. Tanvir Hossain Mitul', email:'mitulbubt48@gmail.com', phone:'01XXXXXXXXX', income: 40000, img:''},
-        {name:'Masum', email:'masumbubt55@gmail.com', phone:'01XXXXXXXXX', income: 40000, img:''},
-        {name:'Tanmmay Debnath', email:'tanmmaybubt71@gmail.com', phone:'01XXXXXXXXX', income: 40000, img:''},
-        {name:'Md. Emam Uddin Shahed', email:'shahedbubt7367@gmail.com', phone:'01XXXXXXXXX', income: 40000, img:''},
-        {name:'Md Nazmul Rahman', email:'nazmulbubt77@gmail.com', phone:'01XXXXXXXXX', income: 40000, img:''},
-        {name:'Mahadi Hasan Rabby', email:'rabby78@gmail.com', phone:'01XXXXXXXXX', income: 40000, img:''},
-        {name:'Kafiul Islam', email:'kafiulbubt79@gmail.com', phone:'01XXXXXXXXX', income: 40000, img:''},
-        {name:'Abdullah-AL-Noman', email:'nomanbubt83@gmail.com', phone:'01XXXXXXXXX', income: 40000, img:''},
-        {name:'Forhad Hossain', email:'forhadbubt75@gmail.com', phone:'01XXXXXXXXX', income: 40000, img:''}
+        {name:'Farhan Fardid', email:'farhanfardid62@gmail.com', phone:'01XXXXXXXXX', income: 20000, img: require('../../images/farhan.jpg')},
+        {name:'Md. Shahanul Haque', email:'shawon63@gmail.com', phone:'01XXXXXXXXX', income: 80000, img: require('../../images/shawon.jpg')},
+        {name:'Saddam Hossain', email:'saddambubt65@gmail.com', phone:'01XXXXXXXXX', income: 50000, img: require('../../images/saddam.jpg')},
+        {name:'Zahid Ahmed', email:'zahidbubt67@gmail.com', phone:'01XXXXXXXXX', income: 90000, img: require('../../images/zahid.jpg')},
+        {name:'Sudipto Kumar Mitra', email:'sudiptobt68@gmail.com', phone:'01XXXXXXXXX', income: 60000, img: require('../../images/sudipto.jpg')},
+        {name:'Md. Motiur Rahman', email:'motiur47@gmail.com', phone:'01XXXXXXXXX', income: 40000, img: require('../../images/mridul.jpg')},
+        {name:'Md. Tanvir Hossain Mitul', email:'mitulbubt48@gmail.com', phone:'01XXXXXXXXX', income: 70000, img: require('../../images/mitul.jpg')},
+        {name:'Masum', email:'masumbubt55@gmail.com', phone:'01XXXXXXXXX', income: 80000, img: require('../../images/masum.jpg')},
+        {name:'Tanmmay Debnath', email:'tanmmaybubt71@gmail.com', phone:'01XXXXXXXXX', income: 30000, img: require('../../images/tonmmy.jpg')},
+        {name:'Md. Emam Uddin Shahed', email:'shahedbubt7367@gmail.com', phone:'01XXXXXXXXX', income: 20000, img: require('../../images/shahed.jpg')},
+        {name:'Md Nazmul Rahman', email:'nazmulbubt77@gmail.com', phone:'01XXXXXXXXX', income: 35000, img: require('../../images/shojol.jpg')},
+        {name:'Mahadi Hasan Rabby', email:'rabby78@gmail.com', phone:'01XXXXXXXXX', income: 32000, img: require('../../images/rabby.jpg')},
+        {name:'Kafiul Islam', email:'kafiulbubt79@gmail.com', phone:'01XXXXXXXXX', income: 45000, img: require('../../images/kafiul.jpg')},
+        {name:'Abdullah-AL-Noman', email:'nomanbubt83@gmail.com', phone:'01XXXXXXXXX', income: 47000, img: require('../../images/noman.jpg')},
+        {name:'Forhad Hossain', email:'forhadbubt75@gmail.com', phone:'01XXXXXXXXX', income: 41000, img: require('../../images/frohan.jpg')}
     
     ]
 
