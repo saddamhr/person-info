@@ -1,0 +1,30 @@
+.single-user {
+    display: flex;
+    /* border-bottom: 1px solid lightgray; */
+    border: 1px solid lightgray;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+} 
+.user-name {
+    color: blue;
+    font-weight: 400px;
+}
+
+.profile-img {
+    height: 218px;
+    width: 218px;
+}
+
+.add-button {
+    background-color: deepskyblue;
+    /* background-color: blue; */
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    cursor: pointer;
+}
+.user-info {
+    margin-left: 20px;
+}

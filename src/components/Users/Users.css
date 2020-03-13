@@ -1,0 +1,22 @@
+.user-container {
+    display: flex;
+}
+
+.user-profile {
+    width: 70%;
+    margin-left: 20px;
+    margin-right: 5px;
+    border-right: 1px solid lightgray;
+}
+
+
+.user-salary {
+    border: 1px solid lightgray;
+    height: 233.88px;
+    width: 30%;
+    padding-left: 10px;
+}
+
+h1 {
+    color: blue;
+}
